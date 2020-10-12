@@ -314,9 +314,10 @@ const updateLastDog = (req, res) => {
 
   const savePromise = lastDogAdded.save();
 
+  const { name } = lastDogAdded;
   const currBreed = lastDogAdded.breed;
   const currAge = lastDogAdded.age;
-  savePromise.then(() => res.json({ name: lastDogAdded.name, breed: currBreed, age: currAge }));
+  savePromise.then(() => res.json({ name, breed: currBreed, age: currAge }));
 
   savePromise.catch((err) => res.status(500).json({ err }));
 };
