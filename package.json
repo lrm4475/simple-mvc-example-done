@@ -1,5 +1,5 @@
 {
-  "name": "simple-mvc-example",
+  "name": "simplemodel",
   "version": "0.0.0",
   "engines": {
     "node": "12.18.3",
@@ -14,7 +14,7 @@
     "test": "echo \"tests complete\""
   },
   "author": "Cody Van De Mark / Austin Willoughby",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "devDependencies": {
     "@babel/cli": "^7.11.6",
     "@babel/core": "^7.11.6",
@@ -32,5 +32,13 @@
     "express-handlebars": "^5.1.0",
     "mongoose": "^5.10.7",
     "serve-favicon": "^2.5.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lrm4475/simple-mvc-example-done.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lrm4475/simple-mvc-example-done/issues"
+  },
+  "homepage": "https://github.com/lrm4475/simple-mvc-example-done#readme"
 }
